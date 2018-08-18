@@ -1,0 +1,82 @@
+/* cssreset */
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, dl, dt, dd, ul, ol, li, fieldset, form, tr, th, td, center, input, button, textarea{padding:0;margin:0}
+table { border-collapse: collapse; border-spacing: 0;}
+fieldset, img { border: 0;}
+button,input,select,textarea{ font-size:12px;}
+input,img,select{ vertical-align:middle;}
+ul,li{list-style:none;}
+h1, h2, h3, h4, h5, h6 {font-size: 100%; font-family:"MicroSoft YaHei"; }
+.left{ float:left;}
+.right { float:right;}
+.txthide{text-indent:-9999em;overflow:hidden; line-height:0; font-size:0;}
+.relative { position:relative;}
+.absolute { position:absolute;}
+
+/* float */
+.clearfix:after{ content:""; height:0; visibility:hidden; display:block; clear:both;}
+.clearfix{ zoom:1;}
+.clear { clear:both;}
+
+/* a */
+a{ color:#000; text-decoration:none;outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}:focus { outline:0; }
+a:hover{ text-decoration:none;}
+
+html,body{ font: 12px/21px "MicroSoft YaHei";}
+.wrapper{ margin:0 auto; width:1002px;overflow:hidden; }
+
+.header {
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  border-bottom: 1px solid #00558F;
+}
+.hua {
+  font-size: 40px;
+}
+.logo-img {
+  position: absolute;
+  left:50px;
+  top: 17px;
+  width: 45px;
+  height: 45px;
+}
+.tj {
+  font-size: 40px;
+  margin-left: 60px;
+}
+.header-right {
+  width: 150px;
+  height: 80px;
+  float: right;
+  padding-top: 15px;
+}
+.header-right p {
+  line-height: 26px;
+  font-size: 17px;
+}
+
+.main {
+  border: 1px solid #eee;
+  margin-top: 20px;
+}
+.title {
+  line-height: 40px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.content {
+  padding:0 100px 40px;
+  font-size: 14px;
+}
+.content p {
+  padding: 10px 0;
+}
+.content p.img {
+  text-align: center;
+}
+.content p img {
+  border: 1px solid #eee;
+}
